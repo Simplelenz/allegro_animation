@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81245B9B223684CE00148BC8 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81245B9A223684CE00148BC8 /* GameObject.cpp */; };
+		815A6A8D2259CAD80097561A /* AnimationConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815A6A8B2259CAD80097561A /* AnimationConfig.cpp */; };
+		815A6A902259D8460097561A /* Animator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815A6A8E2259D8460097561A /* Animator.cpp */; };
 		8167C3C822358D700047A6FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8167C3C722358D700047A6FC /* main.cpp */; };
+		8167C3F6223596900047A6FC /* liballegro_image.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3E9223596900047A6FC /* liballegro_image.5.2.4.dylib */; };
+		8167C3F7223596900047A6FC /* liballegro_physfs.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3EA223596900047A6FC /* liballegro_physfs.5.2.4.dylib */; };
+		8167C3F8223596900047A6FC /* liballegro_video.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3EB223596900047A6FC /* liballegro_video.5.2.4.dylib */; };
+		8167C3F9223596900047A6FC /* liballegro_audio.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3EC223596900047A6FC /* liballegro_audio.5.2.4.dylib */; };
+		8167C3FA223596900047A6FC /* liballegro_ttf.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3ED223596900047A6FC /* liballegro_ttf.5.2.4.dylib */; };
+		8167C3FB223596910047A6FC /* liballegro_primitives.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3EE223596900047A6FC /* liballegro_primitives.5.2.4.dylib */; };
+		8167C3FC223596910047A6FC /* liballegro_memfile.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3EF223596900047A6FC /* liballegro_memfile.5.2.4.dylib */; };
+		8167C3FD223596910047A6FC /* liballegro_font.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3F0223596900047A6FC /* liballegro_font.5.2.4.dylib */; };
+		8167C3FE223596910047A6FC /* liballegro_dialog.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3F1223596900047A6FC /* liballegro_dialog.5.2.4.dylib */; };
+		8167C3FF223596910047A6FC /* liballegro_acodec.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3F2223596900047A6FC /* liballegro_acodec.5.2.4.dylib */; };
+		8167C400223596910047A6FC /* liballegro_main.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3F3223596900047A6FC /* liballegro_main.5.2.4.dylib */; };
+		8167C401223596910047A6FC /* liballegro_color.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3F4223596900047A6FC /* liballegro_color.5.2.4.dylib */; };
+		8167C402223596910047A6FC /* liballegro.5.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8167C3F5223596900047A6FC /* liballegro.5.2.4.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +39,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		81245B99223680E300148BC8 /* GameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		81245B9A223684CE00148BC8 /* GameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		815A6A8B2259CAD80097561A /* AnimationConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationConfig.cpp; sourceTree = "<group>"; };
+		815A6A8C2259CAD80097561A /* AnimationConfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AnimationConfig.hpp; sourceTree = "<group>"; };
+		815A6A8E2259D8460097561A /* Animator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animator.cpp; sourceTree = "<group>"; };
+		815A6A8F2259D8460097561A /* Animator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animator.hpp; sourceTree = "<group>"; };
 		8167C3C422358D700047A6FC /* Allegro Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Allegro Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8167C3C722358D700047A6FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8167C3E9223596900047A6FC /* liballegro_image.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_image.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_image.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3EA223596900047A6FC /* liballegro_physfs.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_physfs.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_physfs.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3EB223596900047A6FC /* liballegro_video.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_video.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_video.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3EC223596900047A6FC /* liballegro_audio.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_audio.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_audio.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3ED223596900047A6FC /* liballegro_ttf.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_ttf.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_ttf.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3EE223596900047A6FC /* liballegro_primitives.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_primitives.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_primitives.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3EF223596900047A6FC /* liballegro_memfile.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_memfile.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_memfile.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3F0223596900047A6FC /* liballegro_font.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_font.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_font.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3F1223596900047A6FC /* liballegro_dialog.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_dialog.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_dialog.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3F2223596900047A6FC /* liballegro_acodec.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_acodec.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_acodec.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3F3223596900047A6FC /* liballegro_main.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_main.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_main.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3F4223596900047A6FC /* liballegro_color.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro_color.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_color.5.2.4.dylib; sourceTree = "<group>"; };
+		8167C3F5223596900047A6FC /* liballegro.5.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liballegro.5.2.4.dylib; path = ../../../../../../../usr/local/Cellar/allegro/5.2.4.0/lib/liballegro.5.2.4.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +67,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8167C3F6223596900047A6FC /* liballegro_image.5.2.4.dylib in Frameworks */,
+				8167C3F7223596900047A6FC /* liballegro_physfs.5.2.4.dylib in Frameworks */,
+				8167C3F8223596900047A6FC /* liballegro_video.5.2.4.dylib in Frameworks */,
+				8167C3F9223596900047A6FC /* liballegro_audio.5.2.4.dylib in Frameworks */,
+				8167C3FA223596900047A6FC /* liballegro_ttf.5.2.4.dylib in Frameworks */,
+				8167C3FB223596910047A6FC /* liballegro_primitives.5.2.4.dylib in Frameworks */,
+				8167C3FC223596910047A6FC /* liballegro_memfile.5.2.4.dylib in Frameworks */,
+				8167C3FD223596910047A6FC /* liballegro_font.5.2.4.dylib in Frameworks */,
+				8167C3FE223596910047A6FC /* liballegro_dialog.5.2.4.dylib in Frameworks */,
+				8167C3FF223596910047A6FC /* liballegro_acodec.5.2.4.dylib in Frameworks */,
+				8167C400223596910047A6FC /* liballegro_main.5.2.4.dylib in Frameworks */,
+				8167C401223596910047A6FC /* liballegro_color.5.2.4.dylib in Frameworks */,
+				8167C402223596910047A6FC /* liballegro.5.2.4.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81245B98223680C700148BC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81245B99223680E300148BC8 /* GameObject.h */,
+				81245B9A223684CE00148BC8 /* GameObject.cpp */,
+				815A6A8B2259CAD80097561A /* AnimationConfig.cpp */,
+				815A6A8C2259CAD80097561A /* AnimationConfig.hpp */,
+				815A6A8E2259D8460097561A /* Animator.cpp */,
+				815A6A8F2259D8460097561A /* Animator.hpp */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8167C3BB22358D700047A6FC = {
 			isa = PBXGroup;
 			children = (
+				81245B98223680C700148BC8 /* Models */,
 				8167C3C622358D700047A6FC /* Allegro Game */,
 				8167C3C522358D700047A6FC /* Products */,
+				8167C3CE2235949E0047A6FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +123,26 @@
 				8167C3C722358D700047A6FC /* main.cpp */,
 			);
 			path = "Allegro Game";
+			sourceTree = "<group>";
+		};
+		8167C3CE2235949E0047A6FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8167C3F2223596900047A6FC /* liballegro_acodec.5.2.4.dylib */,
+				8167C3EC223596900047A6FC /* liballegro_audio.5.2.4.dylib */,
+				8167C3F4223596900047A6FC /* liballegro_color.5.2.4.dylib */,
+				8167C3F1223596900047A6FC /* liballegro_dialog.5.2.4.dylib */,
+				8167C3F0223596900047A6FC /* liballegro_font.5.2.4.dylib */,
+				8167C3E9223596900047A6FC /* liballegro_image.5.2.4.dylib */,
+				8167C3F3223596900047A6FC /* liballegro_main.5.2.4.dylib */,
+				8167C3EF223596900047A6FC /* liballegro_memfile.5.2.4.dylib */,
+				8167C3EA223596900047A6FC /* liballegro_physfs.5.2.4.dylib */,
+				8167C3EE223596900047A6FC /* liballegro_primitives.5.2.4.dylib */,
+				8167C3ED223596900047A6FC /* liballegro_ttf.5.2.4.dylib */,
+				8167C3EB223596900047A6FC /* liballegro_video.5.2.4.dylib */,
+				8167C3F5223596900047A6FC /* liballegro.5.2.4.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815A6A902259D8460097561A /* Animator.cpp in Sources */,
+				81245B9B223684CE00148BC8 /* GameObject.cpp in Sources */,
+				815A6A8D2259CAD80097561A /* AnimationConfig.cpp in Sources */,
 				8167C3C822358D700047A6FC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +319,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/allegro/5.2.4.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +332,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/allegro/5.2.4.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
